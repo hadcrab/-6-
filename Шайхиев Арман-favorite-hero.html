@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кирито - Мастер меча онлайн</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #1f1c2c, #928dab);
+            color: #fff;
+            text-align: center;
+        }
+
+        .hero-container {
+            padding: 50px 20px;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        .hero-title {
+            font-size: 3em;
+            margin-bottom: 20px;
+            background: linear-gradient(90deg, #00c6ff, #0072ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .subtitle {
+            font-size: 1.5em;
+            margin-bottom: 30px;
+            color: #e0e0e0;
+        }
+
+        .skills {
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            padding: 20px;
+            max-width: 600px;
+            margin: 0 auto;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .skills h2 {
+            font-size: 1.8em;
+            color: #00c6ff;
+        }
+
+        .skills p {
+            font-size: 1em;
+            line-height: 1.6;
+        }
+
+        .hero-image {
+            margin-top: 20px;
+            animation: float 3s ease-in-out infinite;
+        }
+
+        .hero-image img {
+            max-width: 100%;
+            border-radius: 15px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="hero-container">
+        <h1 class="hero-title">Кирито - Черный мечник</h1>
+        <p class="subtitle">"Герой, который бросает вызов реальности"</p>
+
+        <div class="skills">
+            <h2>Уникальные навыки:</h2>
+            <p>⚔️ Искусство владения двумя мечами.<br>
+               ⚡ Реакция и скорость, превышающие возможности обычного игрока.<br>
+               🛡️ Готовность защищать друзей любой ценой.</p>
+        </div>
+
+        <div class="hero-image">
+            <img src="135c69ef (1).jpeg" alt="Кирито">
+        </div>
+    </div>
+</body>
+</html>
